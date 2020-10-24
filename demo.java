@@ -47,7 +47,6 @@ public class demo {
         win.setVisible(true);
     }
 
-
     static int Fib(int n){
         if(n == 0 || n== 1){
             return n;
