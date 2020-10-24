@@ -93,7 +93,6 @@ public class DataPanel extends JPanel implements ActionListener {
 		t.start();
 		
 	}
-	
 	public void updateStatus(int percent){
 		progressBar.setValue(percent);
 	}
