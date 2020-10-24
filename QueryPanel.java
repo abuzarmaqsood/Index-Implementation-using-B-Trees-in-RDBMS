@@ -110,7 +110,6 @@ public class QueryPanel extends JPanel implements ActionListener {
 	public void actionPerformed(ActionEvent e) {
 		DataManager.Search(comboBoxQuery.getSelectedItem().toString(), txtQuery.getText(), this);
 	}
-	
 	public void updateResults(SearchResult result)
 	{
 		if(result.DataRow != null){
