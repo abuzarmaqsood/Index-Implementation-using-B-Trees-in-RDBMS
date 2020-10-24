@@ -26,7 +26,6 @@ public class DataManager {
 		public int PagesLoaded;
 		public boolean IndexesUsed; // false means scan, true means seek
 	}
-
 	public static void CreateData(int numRows, DataPanel dp) throws Exception {
 		createDirectory(basedir + "\\data");
 
