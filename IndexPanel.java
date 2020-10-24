@@ -72,7 +72,6 @@ public class IndexPanel extends JPanel implements ActionListener {
 			.addContainerGap(GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE));
 		
 	}
-
 	@Override
 	public void actionPerformed(ActionEvent e) {
 		IndexPanel obj = this;
