@@ -22,7 +22,6 @@ public class App extends JFrame {
 		queryPanel = new QueryPanel(tabPane);
 		
 		super.add(tabPane);
-		
 		pack();
 		
 		super.setTitle("RDBMS Index Implementation");
