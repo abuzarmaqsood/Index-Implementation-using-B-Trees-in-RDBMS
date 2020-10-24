@@ -8,7 +8,6 @@ public class HomePanel extends javax.swing.JPanel {
     	tabPane.addTab("Home", this);
         initComponents();
     }
-
     private JTextArea jTextArea;
     private void initComponents() {
     	this.setBorder(BorderFactory.createMatteBorder(25, 25, 25, 25, Color.darkGray));
